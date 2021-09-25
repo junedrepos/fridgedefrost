@@ -1,0 +1,136 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA328P-PU U?
+U 1 1 5A34AD92
+P 3150 4300
+F 0 "U?" H 2400 5550 50  0000 L BNN
+F 1 "ATMEGA328P-PU" H 3550 2900 50  0000 L BNN
+F 2 "DIL28" H 3150 4300 50  0001 C CIN
+F 3 "" H 3150 4300 50  0001 C CNN
+	1    3150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7SEGMENT_CC U?
+U 1 1 5A34ADDF
+P 9050 3550
+F 0 "U?" H 8550 3925 50  0000 R CNN
+F 1 "7SEGMENT_CC" H 8550 3850 50  0000 R CNN
+F 2 "" H 9100 3250 50  0001 L CNN
+F 3 "" H 9050 3570 50  0001 L CNN
+	1    9050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A34AE04
+P 9400 4250
+F 0 "R?" V 9480 4250 50  0000 C CNN
+F 1 "R" V 9400 4250 50  0000 C CNN
+F 2 "" V 9330 4250 50  0001 C CNN
+F 3 "" H 9400 4250 50  0001 C CNN
+	1    9400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_Dual SW?
+U 1 1 5A351D22
+P 8650 5800
+F 0 "SW?" H 8700 5900 50  0000 L CNN
+F 1 "SW_Push_Dual" H 8650 5530 50  0000 C CNN
+F 2 "" H 8650 6000 50  0001 C CNN
+F 3 "" H 8650 6000 50  0001 C CNN
+	1    8650 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push_Dual SW?
+U 1 1 5A351EE5
+P 8500 2200
+F 0 "SW?" H 8550 2300 50  0000 L CNN
+F 1 "SW_Push_Dual" H 8500 1930 50  0000 C CNN
+F 2 "" H 8500 2400 50  0001 C CNN
+F 3 "" H 8500 2400 50  0001 C CNN
+	1    8500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC547 Q?
+U 1 1 5A351FBC
+P 8950 1600
+F 0 "Q?" H 9150 1675 50  0000 L CNN
+F 1 "BC547" H 9150 1600 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 9150 1525 50  0001 L CIN
+F 3 "" H 8950 1600 50  0001 L CNN
+	1    8950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SANYOU_SRD_Form_C K?
+U 1 1 5A3520A3
+P 9350 5100
+F 0 "K?" H 9800 5250 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 9800 5150 50  0000 L CNN
+F 2 "Relays_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10800 5050 50  0001 C CNN
+F 3 "" H 9350 5100 50  0001 C CNN
+	1    9350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 5A352516
+P 1050 2900
+F 0 "#PWR?" H 1050 2750 50  0001 C CNN
+F 1 "+5V" H 1050 3040 50  0000 C CNN
+F 2 "" H 1050 2900 50  0001 C CNN
+F 3 "" H 1050 2900 50  0001 C CNN
+	1    1050 2900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
